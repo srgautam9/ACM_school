@@ -1,11 +1,4 @@
-# LLM-implementation using groq api with streamlit
- - In this project I have used the groq api to implement the power of LLM(Large Language Models) in a streamlit web app
-
- ![Image](./image/app-image.png)
-
-## DEMO
- - You can check the DEMO [here](https://8501-01hwj8ynshjz7spkr595x77ec2.cloudspaces.litng.ai/)
-
+#ACM Summer School Project
 
 ## Libraries Used
  - dotenv
@@ -27,14 +20,7 @@
  8. Start typing on the chat box
 
 ## Contributions
- - Contributions are welcomed
-
-## Support
- - Give this project a star ⭐ if you like it
-   
-## Author
- - LinkedIn: [Nebeyou Musie](https://www.linkedin.com/in/nebeyou-musie)
- - Gmail: nebeyoumusie@gmail.com
- - Telegram: [Nebeyou Musie](https://t.me/NebeyouMusie)
+ - Somraj Gautam
+ - Muktinath Vishwakarma
     
 
