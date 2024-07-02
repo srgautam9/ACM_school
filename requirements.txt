@@ -1,0 +1,26 @@
+# PDF processing
+PyMuPDF==1.22.5
+
+# Data manipulation and analysis
+pandas==2.0.3
+numpy==1.24.3
+
+# SQL query execution on pandas DataFrames
+pandasql==0.7.3
+
+# Natural Language Processing
+groq==0.4.0
+
+# Data visualization
+matplotlib==3.7.1
+seaborn==0.12.2
+
+# Jupyter notebooks (optional, for interactive development)
+jupyter==1.0.0
+notebook==6.5.4
+
+# Regular expressions (included in Python standard library, listed for clarity)
+# re
+
+# Operating system interfaces (included in Python standard library, listed for clarity)
+# os
