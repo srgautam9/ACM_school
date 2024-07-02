@@ -1,4 +1,7 @@
 # PDF to CSV and Natural Language to SQL Converter for Electoral Bond Data
+Authors:-
+- Somraj Gautam
+- Muktinath Vishwakarma
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -222,17 +225,9 @@ print(result)
 - **Groq API Errors**: Ensure that your Groq API key is set correctly as an environment variable. Check the Groq documentation for any API usage limits or issues.
 - **SQL Query Execution Errors**: Verify that the column names in the generated SQL query match the actual column names in your DataFrames. You may need to adjust the schema information provided to the Groq model.
 
-## Contributing
-
-Contributions to this project are welcome! Please follow these steps to contribute:
-
-1. Fork the repository
-2. Create a new branch for your feature or bug fix
-3. Make your changes and commit them with clear, descriptive messages
-4. Push your changes to your fork
-5. Create a pull request with a description of your changes
-
-Please ensure that your code follows PEP 8 style guidelines and includes appropriate documentation.
+## Contribution
+- Somraj Gautam
+- Muktinath Vishwakarma
 
 ## License
 
