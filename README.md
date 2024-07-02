@@ -1,4 +1,4 @@
-# PDF to CSV and Natural Language to SQL Converter for Electoral Bond Data
+# ACM Summer School on Generative AI for text Hackathon
 Authors:-
 - Somraj Gautam
 - Muktinath Vishwakarma
