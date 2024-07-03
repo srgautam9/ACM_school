@@ -16,6 +16,15 @@ user_input = st.chat_input('start typing')
 
 if not user_input: 
     st.title('Hello there 👋')
+    model_choice = st.sidebar.selectbox('Choose Model', ('LLaMA3 70b', 'Mixtral 8x7b', 'Gemma 7b'))
+
+    model_map = {
+        'LLaMA3 70b': 'llama3-70b-8192',
+        'Mixtral 8x7b': 'mixtral-8x7b-32768',
+        'Gemma 7b': 'gemma-7b-it'
+    }
+
+    model = model_map.get(model_choice, 'llama3-70b-8192')
 
 if user_input:
     model_choice = st.sidebar.selectbox('Choose Model', ('LLaMA3 70b', 'Mixtral 8x7b', 'Gemma 7b'))
