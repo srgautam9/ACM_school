@@ -46,7 +46,7 @@ if user_input:
     Columns: date_of_purchase INT, month_of_purchase INT, year_of_purchase INT, name_of_purchaser VARCHAR(255), prefix VARCHAR(255), bond_number INT, denominations DECIMAL(15, 2).
     'bond_number' and 'prefix' can have same value.
     Convert the following natural language query to an SQL query on the basis of above table:
-    "{natural_language_query}"
+    "{user_input}"
 
     Provide only the SQL query as the output, without any additional explanations and don't add \.
     """
