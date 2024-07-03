@@ -14,13 +14,3 @@ groq==0.4.0
 # Data visualization
 matplotlib==3.7.1
 seaborn==0.12.2
-
-# Jupyter notebooks (optional, for interactive development)
-jupyter==1.0.0
-notebook==6.5.4
-
-# Regular expressions (included in Python standard library, listed for clarity)
-# re
-
-# Operating system interfaces (included in Python standard library, listed for clarity)
-# os
