@@ -40,15 +40,13 @@ if user_input:
     prompt = f"""
     Consider the Schema of the Tables, which contains the following information:
     Table1: encash_df (This table contains the information, when the political party encashed the Bond amount)
-    Columns: date_of_encashment INT, month_of_encashment INT, year_of_encashment INT, name_of_political_party VARCHAR(255), bond_number INT, denominations DECIMAL(15, 2)
+    Columns: date_of_encashment INT, month_of_encashment INT, year_of_encashment INT, name_of_political_party VARCHAR(255), prefix VARCHAR(255),bond_number INT, denominations DECIMAL(15, 2).
 
     Table2: purchase_df (This table contains the information, when the purchaser by the Bond amount)
-    Columns: date_of_purchase INT, month_of_purchase INT, year_of_purchase INT, name_of_purchaser VARCHAR(255), bond_number INT, denominations DECIMAL(15, 2)
-
-    Both tables can be combined on same column, which is bond_number.
-
+    Columns: date_of_purchase INT, month_of_purchase INT, year_of_purchase INT, name_of_purchaser VARCHAR(255), prefix VARCHAR(255), bond_number INT, denominations DECIMAL(15, 2).
+    'bond_number' and 'prefix' can have same value.
     Convert the following natural language query to an SQL query on the basis of above table:
-    "{user_input}"
+    "{natural_language_query}"
 
     Provide only the SQL query as the output, without any additional explanations and don't add \.
     """
