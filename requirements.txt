@@ -1,6 +1,7 @@
 # PDF processing
 PyMuPDF==1.22.5
-
+streamlit
+python-dotenv
 # Data manipulation and analysis
 pandas==2.0.3
 numpy==1.24.3
