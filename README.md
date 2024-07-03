@@ -4,21 +4,11 @@ Authors:-
 - Muktinath Vishwakarma
 
 ## Table of Contents
-1. [Introduction](#introduction)
-2. [Requirements](#requirements)
-3. [Installation](#installation)
-4. [Run](#run)
-5. [Contribution](#contribution)
-6. [License](#license)
-
-## Introduction
-
-This project provides a comprehensive solution for processing and analyzing electoral bond data in India. It consists of two main components:
-
-1. A PDF to CSV converter that extracts electoral bond data from PDF files and converts it into a structured CSV format.
-2. A Natural Language to SQL converter that allows users to query the extracted data using natural language questions.
-
-These tools are designed to make it easier for researchers, journalists, and citizens to access and analyze information about electoral bonds, enhancing transparency in political funding.
+1. [Requirements](#requirements)
+2. [Installation](#installation)
+3. [Run](#run)
+4. [Contribution](#contribution)
+5. [License](#license)
 
 ## Requirements
 
