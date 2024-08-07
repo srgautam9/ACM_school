@@ -1,5 +1,5 @@
 import os
-from dotenv import load_dotenv
+frm dotenv import load_dotenv
 
 # Load the environment variables from the .env file
 def load_config():
