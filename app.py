@@ -1,4 +1,4 @@
-import os
+i mport os
 import streamlit as st
 from groq_client import get_chat_completion
 from config import load_config
